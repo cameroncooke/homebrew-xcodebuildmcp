@@ -2,16 +2,16 @@ class Xcodebuildmcp < Formula
   desc "Model Context Protocol server for Xcode project workflows"
   homepage "https://github.com/cameroncooke/XcodeBuildMCP"
   license "MIT"
-  version "2.0.0-homebrew-e2e.5"
+  version "2.0.0-homebrew-e2e.7"
 
   on_arm do
-    url "https://github.com/cameroncooke/XcodeBuildMCP/releases/download/v2.0.0-homebrew-e2e.5/xcodebuildmcp-2.0.0-homebrew-e2e.5-darwin-arm64.tar.gz"
-    sha256 "d26a696ec9de173fdcba0bffcb91b5472145600f95d0486753f48aed61c73c73"
+    url "https://raw.githubusercontent.com/cameroncooke/homebrew-xcodebuildmcp/main/artifacts/2.0.0-homebrew-e2e.7/xcodebuildmcp-2.0.0-homebrew-e2e.7-darwin-arm64.tar.gz"
+    sha256 "38c0a723f9f95b32e66a3e351e1e8c1e0bbd000c6079a016a7b44807e114b3a5"
   end
 
   on_intel do
-    url "https://github.com/cameroncooke/XcodeBuildMCP/releases/download/v2.0.0-homebrew-e2e.5/xcodebuildmcp-2.0.0-homebrew-e2e.5-darwin-x64.tar.gz"
-    sha256 "028880b2bbc75293d124652fc8320a43fd6bdde9c9120e34a92c4bc21be99089"
+    url "https://raw.githubusercontent.com/cameroncooke/homebrew-xcodebuildmcp/main/artifacts/2.0.0-homebrew-e2e.7/xcodebuildmcp-2.0.0-homebrew-e2e.7-darwin-x64.tar.gz"
+    sha256 "b916cec23cd16157cfbd5b3260448383cbfcfe855f0518ddf6be8ec38602b728"
   end
 
   def install
