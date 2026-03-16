@@ -2,16 +2,16 @@ class Xcodebuildmcp < Formula
   desc "Model Context Protocol server for Xcode project workflows"
   homepage "https://github.com/getsentry/XcodeBuildMCP"
   license "MIT"
-  version "2.2.1"
+  version "2.3.0"
 
   on_arm do
-    url "https://github.com/getsentry/XcodeBuildMCP/releases/download/v2.2.1/xcodebuildmcp-2.2.1-darwin-arm64.tar.gz"
-    sha256 "1fe0546c83e6feb0ffa7648d1cb657b62e460f8462999db88bff57fd6d116d10"
+    url "https://github.com/getsentry/XcodeBuildMCP/releases/download/v2.3.0/xcodebuildmcp-2.3.0-darwin-arm64.tar.gz"
+    sha256 "b2b4ed5ceb54b71a0a10df2a19ed31c9dbf6461b105a23fbbd0e5f9236d8303c"
   end
 
   on_intel do
-    url "https://github.com/getsentry/XcodeBuildMCP/releases/download/v2.2.1/xcodebuildmcp-2.2.1-darwin-x64.tar.gz"
-    sha256 "c5576d0bd8ef5876156dcb84ae1694d42d823815695e68909eb9b0f044b155dd"
+    url "https://github.com/getsentry/XcodeBuildMCP/releases/download/v2.3.0/xcodebuildmcp-2.3.0-darwin-x64.tar.gz"
+    sha256 "35d1e87431482818589079c03d36f98e582cfcff471f6a517bedf4ab1f0ae895"
   end
 
   def install
